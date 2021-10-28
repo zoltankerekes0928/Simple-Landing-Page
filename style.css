@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Cambo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Yellowtail&display=swap");
+
+html {
+  font-size: 10px;
+}
+h1 {
+  font-weight: normal;
+}
+
+:root {
+  --main-dark-color: #1c1c1c;
+  --main-white-color: #ffffff;
+  --header-font-family: "Cambo", serif;
+  --tahoma-font-family: "Tahoma";
+  --banner-title-color: rgb(34, 34, 34);
+  --banner-subtitle-color: rgb(49, 49, 49);
+  --span-color: rgb(47, 178, 235);
+  --button-color: #2e7fac;
+  --button-hover: #f4f4f4;
+}
+
+/*  ************* Header Style *************** */
+
+.header {
+  background-color: var(--main-dark-color);
+}
+
+.title .logo {
+  font-family: var(--header-font-family);
+  color: var(--main-white-color);
+  font-size: 4.2rem;
+  font-weight: normal;
+}
+
+.title p {
+  font-family: var(--header-font-family);
+  color: #888888;
+  font-size: 1.8rem;
+}
+input.search-input-field-style,
+textarea {
+  background-color: var(--main-dark-color);
+}
+
+.search-input-style input {
+  padding: 0.7rem;
+}
+
+.search-input-field-style {
+  width: 25.5rem;
+  border: 1px solid #2c2c2c;
+  color: var(--main-white-color);
+}
+
+.button-style {
+  width: 5rem;
+  color: var(--main-white-color);
+  background-color: #3e3e3e;
+  border: 1px solid var(--main-dark-color);
+  border-radius: 1rem;
+}
+
+/* ************ Main style ****************** */
+
+.main-title-style {
+  background-color: #232323;
+  opacity: 0.9;
+}
+
+.main-title-style h1 {
+  font-family: var(--header-font-family);
+  font-size: 6rem;
+  color: var(--main-white-color);
+  text-shadow: 0.5px 0.866px 0px rgba(90, 185, 218, 0.2);
+}
+
+.main-container .sub-title-style {
+  background-color: #263d56;
+  opacity: 0.9;
+  font-size: 40px;
+  font-family: "Cambo";
+  color: rgb(255, 255, 255);
+  line-height: 1.908;
+  text-align: center;
+  text-shadow: 0.5px 0.866px 0px rgba(90, 185, 218, 0.2);
+  z-index: 61;
+}
+
+.services-box-style {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    177deg,
+    rgba(245, 245, 245, 1) 3%,
+    rgba(245, 245, 245, 1) 4%,
+    rgba(233, 233, 233, 1) 100%
+  );
+  border-radius: 0px 25px;
+  -webkit-box-reflect: below 0px
+    linear-gradient(transparent 90%, transparent 85%, #0008);
+}
+
+.reverse-border {
+  border-radius: 25px 0px;
+}
+
+/* *********  Box Style ******** */
+
+.box-title h2 {
+  font-size: 7rem;
+  font-family: var(--tahoma-font-family);
+  font-weight: bold;
+  color: var(--banner-title-color);
+  text-align: center;
+  margin-top: 0.8rem;
+}
+
+.box-subtitle {
+  font-size: 3rem;
+  color: var(--banner-subtitle-color);
+  text-align: center;
+  font-family: "Yellowtail", cursive;
+  font-weight: lighter;
+}
+
+.services-box-style p {
+  font-size: 1.4rem;
+  text-align: center;
+  font-family: "Arial";
+}
+.services-box-style p span {
+  color: var(--span-color);
+}
+
+.box-button-style {
+  background-color: var(--button-color);
+  cursor: pointer;
+  border-radius: 1.8rem;
+  border: none;
+  font-family: "Cambo";
+  font-size: 2rem;
+  color: var(--main-white-color);
+}
+
+/* ************* hover *************** */
+
+.services-box-style:hover .box-title h2,
+.services-box-style:hover .box-subtitle {
+  color: var(--main-white-color);
+}
+.services-box-style:hover .box-button-style {
+  background-color: var(--button-hover);
+}
+
+.services-box-style:hover .box-button-style {
+  color: rgb(50, 50, 50);
+}
+
+.services-box-style:hover {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    177deg,
+    rgba(55, 55, 55, 1) 8%,
+    rgba(31, 31, 31, 1) 100%
+  );
+}
+
+/* ********  Info Section Style ************* */
+
+.info-container-style {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(182, 182, 182, 1) 14.000000000000002%,
+    rgba(170, 170, 170, 1) 90%
+  );
+  height: 100%;
+  border-radius: 2.5rem;
+}
+
+.info-text p {
+  color: var(--main-white-color);
+  font-family: "Myriad Pro";
+  font-size: 2.2rem;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.05);
+}
+/* ********** Social Style ********** */
+.social-container {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.footer-top-style {
+  background-color: #d8d8d8;
+}
+
+/* *********** Footer Style********** */
+.main-footer-style {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    177deg,
+    rgba(55, 55, 55, 1) 8%,
+    rgba(31, 31, 31, 1) 100%
+  );
+}
+
+@media screen and (max-width: 1000px) {
+  .info-container-style {
+    border-radius: unset;
+    padding: 1rem;
+  }
+}
